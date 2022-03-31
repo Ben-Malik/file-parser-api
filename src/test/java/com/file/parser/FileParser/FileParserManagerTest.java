@@ -40,7 +40,7 @@ public class FileParserManagerTest {
 
     @Test
     void testParseAllFilesWhenGivenPathIsValid() {
-        var parsedFileList = fileParserManager.parseAllFiles(APIConstants.DEFAULT_DIRECTORY_PATH);
+        var parsedFileList = fileParserManager.parseAllFiles(APIConstants.TEST_FILES);
         Assertions.assertEquals(1, parsedFileList.size());
         ParsedFile parsedFile = parsedFileList.get(0);
         Assertions.assertEquals(parsedFile.getFilename(), "ben.txt");

@@ -38,4 +38,6 @@ public final class APIConstants {
     public static final String ERROR_CREATING_DIRECTORY = "An error has occurred while creating the directory.";
 
     public static final String BLANK_SPACE = "";
+
+    public static final String TEST_FILES = Paths.get("").toAbsolutePath() + "/src/main/resources/data/testFiles/";
 }
