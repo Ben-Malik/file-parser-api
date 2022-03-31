@@ -12,12 +12,7 @@ public final class APIConstants {
     public static final List<String> ALLOWED_FILE_EXTENSIONS = Arrays.asList("txt", "doc", "pdf", "md", "java", "py");
 
     public static final String DEFAULT_DIRECTORY_PATH =  Paths.get("").toAbsolutePath() + "/src/main/resources/data/";
-
-    public static final String VALID_EMPTY_PATH = "invalidEmptyPath";
-
-    public static final String FILE_NAME_SEPARATOR = "/";
-
-    public static final String VALID_PATH = "validPath";
+    public static final String DEFAULT_DIRECTORY_PATH_WITH_NO_VALID_FILE =  Paths.get("").toAbsolutePath() + "/src/main/resources/data/noValidFile";
 
     public static final String PROCESSED_FILES_DIRECTORY = "processed/";
 
