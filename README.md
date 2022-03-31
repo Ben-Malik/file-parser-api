@@ -51,6 +51,12 @@ ParsedFile(String filename, Long wordCount, Long dotCount, Long specialCharacter
 >  ***Exceptions***
 > ```FileParserException(String message)```
 
+>  ***Tests***
+> `FileParserManagerTest` tests all the methods. 
+> Bear in mind that the method ```testParseAllFilesWhenGivenPathIsValid()``` is expected to fail
+> while being run for the second time. 
+> Merely because the file will `ben.txt` will have been moved to the `processed` folder by the first run.
+
 **Environment:**
 
 ```
